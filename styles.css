@@ -1,0 +1,40 @@
+
+:root{
+  --gold:#d4af37; --bg:#0b0b0b; --panel:#121212; --text:#f5f5f5; --muted:#b7b7b7;
+}
+*{box-sizing:border-box} body{margin:0;font-family:Inter,system-ui,Arial;background:var(--bg);color:var(--text)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+.header{position:sticky;top:0;background:rgba(0,0,0,.55);backdrop-filter:saturate(1.2) blur(6px);border-bottom:1px solid rgba(255,255,255,.08);z-index:20}
+.header .wrap{display:flex;align-items:center;justify-content:space-between;padding:14px 20px}
+.brand{display:flex;align-items:center;gap:10px}
+.brand .icon{font-size:22px;color:var(--gold)} .brand .name{font-family:Playfair Display,serif;color:var(--gold);font-weight:700;letter-spacing:.5px}
+.nav{display:flex;gap:20px;align-items:center}
+.nav a{color:#ddd;text-decoration:none;font-size:14px}
+.nav a:hover{color:#fff} .nav .cta{border:1px solid var(--gold);padding:8px 14px;border-radius:12px;color:var(--gold)}
+
+.hero{position:relative;min-height:72vh;background:url('hero.jpg') center/cover no-repeat}
+.overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.55),rgba(0,0,0,.75))}
+.hero-content{position:relative;padding:90px 0}
+.title{font-family:Playfair Display,serif;color:var(--gold);font-size:40px;margin:0 0 10px}
+.subtitle{color:#fff;opacity:.95;font-size:20px;margin:0 0 20px}
+.actions{display:flex;gap:12px}
+.btn{display:inline-block;padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:600;font-size:14px}
+.btn.ghost{border:1px solid var(--gold);color:var(--gold)} .btn.solid{background:var(--gold);color:#111}
+
+.section{padding:64px 0} .section.alt{background:#0f0f0f}
+h2{font-family:Playfair Display,serif;color:var(--gold);margin:0 0 12px}
+h3{color:var(--gold);margin:0 0 8px}
+.grid.two{display:grid;grid-template-columns:1fr;gap:28px}
+.grid.three{display:grid;grid-template-columns:1fr;gap:16px}
+@media (min-width:880px){.grid.two{grid-template-columns:1.15fr 1fr} .grid.three{grid-template-columns:repeat(3,1fr)}}
+.card{background:var(--panel);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;box-shadow:0 8px 28px rgba(0,0,0,.35)}
+.media{background:url('about.jpg') center/cover no-repeat;min-height:240px}
+.media.tall{min-height:300px;background-image:url('training.jpg')}
+.list{margin:12px 0 0 18px;color:#eaeaea}
+.form input,.form textarea{width:100%;background:#0a0a0a;border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:12px 14px;color:#fff;margin-bottom:10px}
+.form textarea{height:120px;resize:vertical}
+
+.footer{border-top:1px solid rgba(255,255,255,.08);padding:22px 0;background:#000}
+.footer .wrap.small{display:flex;flex-direction:column;gap:6px;font-size:12px}
+.footer .muted{color:var(--muted)}
+/* Placeholders for images. Replace hero.jpg, about.jpg, training.jpg with tus fotos */
