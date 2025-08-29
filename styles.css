@@ -50,4 +50,3 @@ h3{color:var(--gold);margin:0 0 8px}
 .media{min-height:240px;border-radius:16px;background-size:cover;background-position:center}
 .media.quienes{background-image:url('imagenes_web/quienes_somos.jpg')}
 .media.servicios{background-image:url('imagenes_web/servicios.jpg')}
-.media.contacto{background-image:url('imagenes_web/contacto.jpg')}
