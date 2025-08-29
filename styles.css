@@ -50,3 +50,15 @@ h3{color:var(--gold);margin:0 0 8px}
 .media{min-height:240px;border-radius:16px;background-size:cover;background-position:center}
 .media.quienes{background-image:url('imagenes_web/quienes_somos.jpg')}
 .media.servicios{background-image:url('imagenes_web/servicios.jpg')}
+
+.form input,.form textarea{
+  width:100%;
+  padding:10px;
+  margin-bottom:12px;
+  border:1px solid #ccc;
+  border-radius:8px;
+  font-family:inherit;
+}
+
+.footer{padding:24px 0;text-align:center;background:#fafafa;font-size:13px;border-top:1px solid rgba(0,0,0,.08)}
+.footer .muted{color:var(--muted);display:block;margin-top:6px}
