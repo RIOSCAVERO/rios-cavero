@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rioscavero.github.io/rios-cavero/sitemap.xml
